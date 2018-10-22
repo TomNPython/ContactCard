@@ -1,0 +1,99 @@
+body {
+  background-color: grey;
+  font-family: arial, sans-serif;
+}
+
+.container {
+  background: #abc6a7;
+  border: 1px solid grey;
+  border-radius: 10px;
+  text-align: left;
+  margin: 0 auto;
+  width: 360px;
+  max-width: 100%;
+  box-shadow: 10px 10px 10px;
+}
+
+h1 {
+  text-align: center;
+  color: grey;
+  font-size: 1.5em;
+  width: 100%;
+  background: white;
+  margin: 0px 0px 10px 0px;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 0px 10px 0px
+}
+
+img {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin-bottom: 2%;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.background-top {
+padding: 10px 0px 10px 0px
+}
+
+.background-btm {
+  background-color: #bbd8b6;
+  padding: 10px 0px 10px 0px
+}
+
+.collapsible {
+  margin: 10px 0px 0px 0px;
+  padding: 5px 0px 5px 5px;
+  color: grey;
+}
+
+.collapsible:hover {
+  background-color: #98af93;
+  cursor: pointer;
+  margin: 10px 0px 0px 0px;
+}
+
+
+ul {
+  margin: 0;
+}
+
+li {
+  padding: 5px
+}
+
+.active {
+  color: #cbd0d8;
+  background-color: #98af93
+}
+.content {
+  background-color: #98af93;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+  color: #cbd0d8;
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+  padding: 5px 0px 0px 0px
+}
+
+a {
+  display: inline-block;
+  margin: 5px;
+  color: black;
+}
